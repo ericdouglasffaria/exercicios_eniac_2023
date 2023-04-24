@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="form1" method="post" action="grava.jsp">
+      Nome: <input type="text" name="txtNome" />
+      <span id="erroNome"></span>
+
+      idade:
+      <input type="text" name="txtIdade" />
+      <span id="erroNome"></span>
+
+      email:
+      <input type="email" email="txtEmail" />
+      <input type="button" value="Enviar" onclick="verificar ()" />
+      <span id="erroNome"></span>
+    </form>
+
+    <script src="/eniac/validar_form.js"></script>
+  </body>
+</html>
